@@ -12,11 +12,10 @@
 
   <body>
     <nav class="nav-bar">
-      <%= link_to "Members Only", root_path, class: "nav-button nav-left" %>
-      <div class="nav-right">
-        <%= link_to "Sign In", new_user_session_path, class: "nav-button" %>
-        <%= link_to "Sign Up", new_user_registration_path, class: "nav-button" %>
-      </div>
+      <%= link_to "Members Only", root_path, class: "nav-button" %>
+      <!--<span class="nav-spacer"></span>-->
+      <%= link_to "Sign In", new_user_session_path, class: "nav-button nav-right" %>
+      <%= link_to "Sign Up", new_user_registration_path, class: "nav-button" %>
     </nav>
 
     <p class="notice"><%= notice %></p>

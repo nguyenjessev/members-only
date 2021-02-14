@@ -14,25 +14,32 @@
  *= require_self
  */
 
+@media all and (max-width: 600px) {
+  .nav-button {
+    flex-basis: 100%;
+  }
+}
+
 body {
   margin: 0;
 }
 
 .nav-bar {
   display: flex;
-  height: 4rem;
+  flex-wrap: wrap;
   background: hsl(264, 50%, 60%);
+  min-height: 4rem;
 }
 
 .nav-button {
   display: inline-flex;
-  height: 100%;
   justify-content: center;
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 1.5rem;
   text-decoration: none;
+  min-height: 3rem;
 }
 
 a.nav-button {
