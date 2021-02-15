@@ -1,3 +1,7 @@
 <div id="post-feed" class="centered-container">
   <h1>Posts</h1>
+
+  <% @posts.each do |p| %>
+    <%= render partial: "box", locals: { post: p } %>
+  <% end %>
 </div>

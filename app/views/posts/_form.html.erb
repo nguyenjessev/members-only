@@ -12,8 +12,13 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :body %><br />
-    <%= form.text_area :body, autofocus: true, class: "form-text-area" %>
+    <%= form.label :title %>
+    <%= form.text_field :title, autofocus: true %>
+  </div>
+
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body %>
   </div>
 
   <div class="actions">

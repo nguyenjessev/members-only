@@ -53,15 +53,7 @@ a.nav-button {
   margin-left: auto;
 }
 
-.form-text-area {
-  width: 100%;
-}
-
 @media all and (max-width: 600px) {
-  .post-feed {
-    width: 100%;
-  }
-
   .nav-button {
     flex-basis: 100%;
   }
