@@ -2,8 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+.post-box {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid hsl(0, 0%, 80%);
+  margin-bottom: 3rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  background: hsl(0, 0%, 90%);
+  line-height: 1.5rem;
+}
+
+.post-body {
+  padding: 1rem;
+}
+
+.post-author {
+  padding: 1rem;
+  font-style: italic;
+  border-top: 1px dotted black;
+  text-align: right;
+}
+
 @media all and (max-width: 600px) {
-  .post-feed {
-    width: 100%;
+  #post-feed {
+    width: 85%;
   }
 }
