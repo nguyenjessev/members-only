@@ -35,6 +35,10 @@
   font-size: 1.2rem;
 }
 
+#post-body-field textarea {
+  width: 100%;
+}
+
 @media all and (max-width: 600px) {
   #post-feed {
     width: 85%;
