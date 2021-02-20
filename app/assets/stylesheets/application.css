@@ -53,6 +53,14 @@ a.nav-button {
   margin-left: auto;
 }
 
+.notice {
+  background: hsl(205, 77%, 70%);
+}
+
+.alert {
+  background: hsl(35, 60%, 76%);
+}
+
 @media all and (max-width: 600px) {
   .nav-button {
     flex-basis: 100%;

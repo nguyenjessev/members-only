@@ -30,6 +30,11 @@
   text-align: right;
 }
 
+.notice, .alert {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
 @media all and (max-width: 600px) {
   #post-feed {
     width: 85%;

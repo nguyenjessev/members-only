@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <% if notice %>
+      <div class="notice"><%= notice %></div>
+    <% end %>
+    <% if alert %>
+      <div class="alert"><%= alert %></div>
+    <% end %>
+
     <nav class="nav-bar">
       <%= link_to "Members Only", root_path, class: "nav-button" %>
       <% if user_signed_in? %>
@@ -21,9 +28,6 @@
         <%= link_to "Sign Up", new_user_registration_path, class: "nav-button" %>
       <% end %>
     </nav>
-
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
 
     <%= yield %>
   </body>
